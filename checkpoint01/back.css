@@ -1,0 +1,18 @@
+.parent {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.children {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 100%;
+}
+
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
